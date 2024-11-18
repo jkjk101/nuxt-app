@@ -6,4 +6,9 @@ export default defineNuxtConfig({
   app: {
     baseURL: '/repo-name/', // Set your GitHub Pages path here
   },
+  runtimeConfig: {
+    site: {
+      url: 'https://jkjk101.github.io/nuxt-app'
+    }
+  }
 })
