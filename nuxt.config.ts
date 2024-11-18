@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui'],
   app: {
-    baseURL: '/repo-name/', // Set your GitHub Pages path here
+    //baseURL: '/nuxt-app/', // Set your GitHub Pages path here
+    baseURL: '/'
   },
+  runtimeConfig: {
+    site: {
+      url: 'http://localhost:3000'
+    }
+  }
 })
