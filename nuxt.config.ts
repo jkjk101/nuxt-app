@@ -4,6 +4,11 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui'],
   app: {
-    baseURL: '/repo-name/', // Set your GitHub Pages path here
+    baseURL: '/'
   },
+  runtimeConfig: {
+    site: {
+      url: 'https://jkjk101.github.io/nuxt-app'
+    }
+  }
 })
