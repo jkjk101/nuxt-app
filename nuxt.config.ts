@@ -4,7 +4,7 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui'],
   app: {
-    baseURL: '/'
+    baseURL: '/nuxt-app/'
     //baseURL: '/nuxt-apphttps://jkjk101.github.io/nuxt-app'
   },
   runtimeConfig: {
