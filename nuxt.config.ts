@@ -5,7 +5,6 @@ export default defineNuxtConfig({
   modules: ['@nuxt/ui'],
   app: {
     baseURL: '/nuxt-app/'
-    //baseURL: '/nuxt-apphttps://jkjk101.github.io/nuxt-app'
   },
   runtimeConfig: {
     public: {
