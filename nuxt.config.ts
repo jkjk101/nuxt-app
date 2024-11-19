@@ -4,11 +4,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: ['@nuxt/ui'],
   app: {
-    baseURL: 'https://jkjk101.github.io/nuxt-app'
+    //baseURL: '/'
+    baseURL: '/nuxt-apphttps://jkjk101.github.io/nuxt-app'
   },
   runtimeConfig: {
     public: {
-      siteUrl: 'https://jkjk101.github.io/nuxt-app'
+      siteUrl: 'https://jkjk101.github.io'
     }
   }
 })
